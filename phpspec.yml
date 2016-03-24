@@ -1,0 +1,7 @@
+## YAML Template.
+
+suites:
+ generator_suite:
+ namespace: Reea\CLI
+ psr4_prefix: Reea\CLI
+ src_path: .

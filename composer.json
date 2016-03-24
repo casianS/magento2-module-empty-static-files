@@ -1,0 +1,38 @@
+{
+    "name": "casian/magento2-module-empty-static-files",
+    "description": "Empty var folder and public/static",
+    "license": "MIT",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/magento-composer-installer": "*"
+    },
+    
+    "extra": {
+        "map": [
+           [
+              "*",
+              "Reea/CLI"
+           ]
+        ]
+    },
+    
+    "autoload": {
+            "psr-4": {
+            "Reea\\CLI\\": "."
+        }
+    },
+    
+    "autoload-dev": {
+        "psr-4": {
+            "Reea\\Commands\\": ".",
+            "Magento\\" : "vendor/magento/magento2ce/app/code/",
+            "Magento\\Framework\\": "vendor/magento/magento2ce/lib/internal/"
+        }
+    }  
+}
+
+
+
