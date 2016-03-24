@@ -7,7 +7,7 @@ Reea/CLI
 
 ...then install the module with composer (link below).
 Run:
-php bin/magento setup:upgrade
+###php bin/magento setup:upgrade
 
 After that....
 
@@ -15,13 +15,13 @@ Simply use this new command from your Magento root directory:
 php bin/magento cache:empty
 
 This will delete following folders:
-    'var/view_preprocessed';
-    'var/cache';
-    'var/page_cache';
-    'var/generation';
-    'pub/static/_requirejs';
-    'pub/static/frontend';
-    'pub/static/adminhtml';
+- 'var/view_preprocessed';
+- 'var/cache';
+- 'var/page_cache';
+- 'var/generation';
+- 'pub/static/_requirejs';
+- 'pub/static/frontend';
+- 'pub/static/adminhtml';
     
     
 ## Install with Composer as you go
