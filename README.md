@@ -2,8 +2,9 @@
 
 In addition to normal cache files, Magento 2 also generates a number of boilerplate classes for you on-the-fly. These files are generated in the var/generate folder. When you change certain configurations or code files, it’s often necessary to regenerate these generated code files. There are not, at this time, any features (CLI or GUI) for doing this. The only way to clear the generated code folders is to manually delete the files in var/generation.
 
-Create following directory structure into add/code:
-Reea/CLI
+## Instructions: 
+Create the following directory structure into app/code:
+- Reea/CLI
 
 ...then install the module with composer (link below).
 #### Run: php bin/magento setup:upgrade
