@@ -6,13 +6,12 @@ Create following directory structure into add/code:
 Reea/CLI
 
 ...then install the module with composer (link below).
-Run:
-###php bin/magento setup:upgrade
+#### Run: php bin/magento setup:upgrade
 
 After that....
 
 Simply use this new command from your Magento root directory: 
-php bin/magento cache:empty
+#### php bin/magento cache:empty
 
 This will delete following folders:
 - 'var/view_preprocessed';
