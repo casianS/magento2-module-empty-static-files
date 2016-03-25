@@ -6,7 +6,8 @@ In addition to normal cache files, Magento 2 also generates a number of boilerpl
 Create the following directory structure into app/code:
 - Reea/CLI
 
-...then install the module with composer (link below).
+Git clone the repo.
+
 #### Run: php bin/magento setup:upgrade
 
 After that....
@@ -24,6 +25,4 @@ This will delete following folders:
 - 'pub/static/adminhtml';
     
     
-## Install with Composer as you go
 
-    composer require casianS/magento2-module-empty-static-files
